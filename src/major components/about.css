@@ -1,0 +1,82 @@
+.about-section{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 85px
+}
+
+.about-section aside{
+    position: relative
+}
+
+.about-section aside img{
+    width: 80%;
+}
+
+.about-section aside div{
+    position: absolute;
+    border-radius: 20px;
+    padding-top: 27px;
+    padding-right: 13px;
+    padding-bottom: 27px;
+    padding-left: 13px;
+    gap: 10px;
+    box-shadow: 0px 1px 6px 0px #0000001A;
+}
+
+.about-section aside div p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9D9D9D;
+}
+
+.about-section aside div span{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+    color: #1E88E5;
+}
+
+.about-section aside .no-of-freelancers{
+    right: 40%;
+    top: 40px
+}
+
+.about-section aside .no-of-freelance-jobs{
+    right: 10%;
+    top: 200px
+}
+
+.about-section article h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #252525;
+}
+
+.about-section article h3 span{
+    color: #1E88E5
+}
+
+.about-section article p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #9D9D9D;
+}

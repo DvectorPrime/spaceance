@@ -1,3 +1,6 @@
+*{
+    font-family: Poppins;
+}
 .heading-component{
     width: 100%;
     position: relative;
@@ -180,3 +183,51 @@
 .home-section aside img{
     width: 100%;
 }
+
+.heading-component .action-container{
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    width: 90%;
+    border-radius: 10px;
+    padding: 41px 53px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 20px 30px 0px #0000000D;
+}
+
+.heading-component .action{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.heading-component .action .action-item{
+    width: 90%;
+    text-align: center;
+}
+
+.heading-component .action .action-item img{
+    width: 111px;
+    margin-bottom: 20px;
+}
+
+.heading-component .action .action-item h3{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+.heading-component .action .action-item p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9D9D9D;
+}
+
